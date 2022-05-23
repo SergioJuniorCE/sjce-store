@@ -1,10 +1,10 @@
 export async function get() {
-	const images = [
+	const products = [
 		{
 			id: 0,
 			src: 'images/ropa1.webp',
 			alt: 'Vestido lago rojo',
-			price: 100
+			price: 90
 		},
 		{
 			id: 1,
@@ -16,18 +16,18 @@ export async function get() {
 			id: 2,
 			src: 'images/ropa3.webp',
 			alt: 'Vestido colorido',
-			price: 100
+			price: 110
 		},
 		{
 			id: 3,
 			src: 'images/ropa4.webp',
 			alt: 'Pantalon blanco',
-			price: 100
+			price: 120
 		}
 	];
 	return {
 		body: {
-			images
+			products
 		}
 	};
 }
